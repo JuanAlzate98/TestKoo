@@ -1,0 +1,24 @@
+<div class="comment-form">
+    <div class="row">
+        <div class="col-md-6 form-group">
+            <input placeholder="Contenido" class="form-control" [(ngModel)]="commentService.currentComment.contenido">
+        </div>
+        <div class="col-md-6 form-group">
+            <input placeholder="Usuario" class="form-control" [(ngModel)]="commentService.currentComment.usuario">
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-8">
+        <button class="btn btn-success btn-lg btn-block" (click)="createOrUpdateComment(commentService.currentComment)">
+          <i class="fa fa-save"></i>
+          Guardar
+        </button>
+    </div>
+    <div class="col-md-4">
+        <button class="btn btn-primary btn-lg btn-block" (click)="clearComment()">
+          <i class="fa fa-retweet"></i>
+          Borrar
+        </button>
+    </div>
+</div>

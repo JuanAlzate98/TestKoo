@@ -3,3 +3,4 @@ export interface IComentario {
   contenido: string;
   usuario: string;
 }
+ 

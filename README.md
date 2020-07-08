@@ -15,6 +15,4 @@ Se debe clonar este repositorio y cumplir con las siguientes actividades.
 
 (Opcional) - Implementar el store (@NGRX) con interfaz optimista para la gestión de datos.
 
-Nota: el timepo màximo son 4 horas para la entrega!!
-
   
